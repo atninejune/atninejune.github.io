@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="note.css">
+    <link rel="stylesheet" href="Assets/Font/FontAwesome (Offline)/css/all.min.css">
+    <link rel="stylesheet" href="Assets/Font/FontAwesome (Offline)/css/fontawesome.min.css">
+    <title>bunch of happines</title>
+</head>
+<body>
+            <div class="pass">
+                <form method="GET">
+                    <p>Enter ur Token <span>[ <input type="password" name="password" id="password" maxlength="9" autofocus> ]</span> </p>
+                </form>
+                    <div class="footer">
+                        <div class="left">
+                            footer&copy;bunchofhappines
+                        </div>
+                        <div class="right">
+                            <a href="https://www.instagram.com/pageofjann_">know me more</a>
+                        </div>
+                    </div> 
+            </div>
+</body>
+</html>
+<script>
+
+    var password = document.getElementById('password');
+    
+    password.addEventListener('keyup', function(event) {
+      if (event.keyCode === 13) {
+        event.preventDefault();
+        window.location.href = 'my-jann/dist/index.html';
+      }
+      
+    });
+    
+    /* function checkPasswordAndRedirect(password) {
+      // Mengecek password
+      if (password === "31") {
+        // Password benar, beralih ke halaman tujuan
+        window.location.href = 'my-jann/dist/index.html/';
+      } else {
+        // Password salah, menampilkan pesan kesalahan atau melakukan tindakan lain
+        alert('Password salah! Mohon coba lagi.');
+      }
+    } */
+    
+    </script>

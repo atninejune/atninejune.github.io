@@ -1,0 +1,33 @@
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+   (function(){
+      emailjs.init("YOUR_USER_ID");
+   })();
+</script>
+
+<form id="contact-form">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    <input type="button" value="Send" onclick="sendEmail()">
+</form>
+
+<script>
+    function sendEmail() {
+        const templateParams = {
+            from_name: document.getElementById('name').value,
+            from_email: document.getElementById('email').value,
+            message: document.getElementById('message').value
+        };
+
+        emailjs.send('service_hga1eqr', 'template_xhpdhkb', templateParams)
+            .then(function(response) {
+                console.log('Email sent successfully!', response);
+            }, function(error) {
+                console.error('Email sending failed:', error);
+            });
+    }
+</script>

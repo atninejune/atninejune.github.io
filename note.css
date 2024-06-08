@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./Font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: inspire;
+    src: url(./Font/Poppins/Inspire.ttf);
+}
+@font-face {
+    font-family: BFutura;
+    src: url(./Font/Futura/Futura\ Heavy\ font.ttf);
+}
+body{
+    background-color: #000000;
+    color: #00ff19;
+    overflow: hidden;
+    font-family: BFutura;
+}
+.pass{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+    
+}
+.pass form p{
+    margin-top: 20%;
+    text-align: center;
+    
+}
+.pass form p span{
+    width: 100%;
+    margin-left: 10px;
+}
+.pass form p input[type="password"]{
+    color: #00ff19 ;
+    border: none;
+    width: 60px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0px ;
+    background-color: transparent;
+    outline: none;
+}
+.footer{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    margin-top: 250px;
+    font-size: small;
+    color: #00ff1a4e;
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    width: 50%;
+}
+.right a{
+    text-decoration: none;
+    color: #00ff1a4e;;
+}
+.left{
+    width: 50%;
+}
