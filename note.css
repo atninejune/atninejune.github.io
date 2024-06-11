@@ -62,3 +62,7 @@ body{
 .left{
     width: 50%;
 }
+.left a{
+    text-decoration: none;
+    color: #00ff1a4e;;
+}
