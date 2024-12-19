@@ -3,7 +3,7 @@ onload = () =>{
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-        const text = "hi z! i surrender, i love u, allow me to be ur bf pls";
+        const text = "hi z! i love u more as what u want";
         const typingTextElement = document.getElementById('typing-text');
     
         let index = 0;
