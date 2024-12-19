@@ -3,7 +3,7 @@ onload = () =>{
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-        const text = "hi z! i love u more as what u want";
+        const text = "hi z! i love u as u wish";
         const typingTextElement = document.getElementById('typing-text');
     
         let index = 0;
